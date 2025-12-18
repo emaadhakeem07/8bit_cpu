@@ -1,4 +1,4 @@
-# 8 bit cpu
+<img width="954" height="682" alt="image" src="https://github.com/user-attachments/assets/3caf5527-d315-46b3-bbe0-ea6d2499fa2a" /># 8 bit cpu
 
 ## Table of Contents
 
@@ -78,3 +78,5 @@ RAM:
 Memory Address Manager: 
 
 <img src="https://github.com/emaadhakeem07/8bit_cpu/blob/main/img/image11.png?raw=true" width="350" />
+
+<img src="https://github.com/emaadhakeem07/8bit_cpu/blob/main/img/image12.png?raw=true" width="350" />
