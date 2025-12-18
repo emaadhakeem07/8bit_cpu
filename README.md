@@ -32,12 +32,29 @@ The instruction register is a decoder that converts the values of the instructio
 ## Registers
 
 There are 4 main registers which I will be refering to as r0, r1, r2 r3. To perform any operations on numbers. They first have to be moved into a register. There is also a execution register which contains the command being currently executed. 
-The last bit in the registers is used as a buffer to avoid issues related to delays in 
+The last bit in the registers is used as a buffer to avoid issues related to delays during subtraction.
 
 Main Registers: 
 
-<img src="https://github.com/emaadhakeem07/8bit_cpu/blob/main/img/image2.png?raw=true" width="300" />
+<img src="https://github.com/emaadhakeem07/8bit_cpu/blob/main/img/image3.png?raw=true" width="300" />
 
 Execution Register:
 
-<img src="https://github.com/emaadhakeem07/8bit_cpu/blob/main/img/image2.png?raw=true" width="600" />
+<img src="https://github.com/emaadhakeem07/8bit_cpu/blob/main/img/image4.png?raw=true" width="600" />
+
+## ALU
+
+The Arithmetic and Logical unit in my cpu can perform the following things
+
+- Addition
+- Subtraction
+  
+<img src="https://github.com/emaadhakeem07/8bit_cpu/blob/main/img/image7.png?raw=true" width="350" />
+
+- And
+- Or
+- Xor
+- Equal to
+- Greater Than
+  
+<img src="https://github.com/emaadhakeem07/8bit_cpu/blob/main/img/image6.png?raw=true" width="350" />
