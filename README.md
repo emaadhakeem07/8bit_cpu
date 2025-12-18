@@ -32,10 +32,12 @@ The instruction register is a decoder that converts the values of the instructio
 ## Registers
 
 There are 4 main registers which I will be refering to as r0, r1, r2 r3. To perform any operations on numbers. They first have to be moved into a register. There is also a execution register which contains the command being currently executed. 
-The last bit in the registers is used as a buffer to avoid issues related to d
+The last bit in the registers is used as a buffer to avoid issues related to delays in 
 
 Main Registers: 
+
 <img src="https://github.com/emaadhakeem07/8bit_cpu/blob/main/img/image2.png?raw=true" width="300" />
 
 Execution Register:
+
 <img src="https://github.com/emaadhakeem07/8bit_cpu/blob/main/img/image2.png?raw=true" width="600" />
