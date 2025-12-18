@@ -27,3 +27,5 @@ This cpu consists of 4 main registers which hold 8 bits each. (The last bit of e
 
 The instruction register is a decoder that converts the values of the instructions given in binary into a on/off value of the instruction. It's outputs are connected other components of the cpu like the ALU, Mover, Program Counter, Memory Address Manager and the Output Control.
 
+![image](https://github.com/emaadhakeem07/8bit_cpu/blob/main/img/image1.png?raw=true)
+![image](https://github.com/emaadhakeem07/8bit_cpu/blob/main/img/image2.png?raw=true)
