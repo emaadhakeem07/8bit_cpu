@@ -35,5 +35,7 @@ There are 4 main registers which I will be refering to as r0, r1, r2 r3. To perf
 The last bit in the registers is used as a buffer to avoid issues related to d
 
 Main Registers: 
+<img src="https://github.com/emaadhakeem07/8bit_cpu/blob/main/img/image2.png?raw=true" width="300" />
 
 Execution Register:
+<img src="https://github.com/emaadhakeem07/8bit_cpu/blob/main/img/image2.png?raw=true" width="600" />
