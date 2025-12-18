@@ -9,7 +9,7 @@
 - [ALU](#ALU)
 - [Mover](#Mover)
 - [RAM_and_Memory Address manager](#RAM_and_Memory_Address_Manager)
-- [Program Counter](#program_counter)
+- [Program Counter](#Program_Counter)
 - [Assembly](#assembly)
 - [Input](#Input)
 - [Output](#Output)
@@ -80,3 +80,15 @@ Memory Address Manager:
 <img src="https://github.com/emaadhakeem07/8bit_cpu/blob/main/img/image11.png?raw=true" width="350" />
 
 <img src="https://github.com/emaadhakeem07/8bit_cpu/blob/main/img/image12.png?raw=true" width="350" />
+
+## Program_Counter
+
+The program counter controls the execution of the statements of code written in binary from the input. It first moves binary instruction from the input to the execution register and then executes the instruction. 
+
+<img src="https://github.com/emaadhakeem07/8bit_cpu/blob/main/img/image13.png?raw=true" width="350" />
+
+It also executes the if statement. which checks the output in the specified register and then moves to the specified line. The lines are numbered from 0 to 15. 
+
+<img src="https://github.com/emaadhakeem07/8bit_cpu/blob/main/img/image14.png?raw=true" width="350" />
+
+<img src="https://github.com/emaadhakeem07/8bit_cpu/blob/main/img/image15.png?raw=true" width="350" />
