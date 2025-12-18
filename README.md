@@ -1,4 +1,4 @@
-<img width="954" height="682" alt="image" src="https://github.com/user-attachments/assets/3caf5527-d315-46b3-bbe0-ea6d2499fa2a" /># 8 bit cpu
+# 8 bit cpu
 
 ## Table of Contents
 
