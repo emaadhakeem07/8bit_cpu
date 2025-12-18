@@ -1,4 +1,4 @@
-# 8 bit cpu
+<img width="1520" height="811" alt="image" src="https://github.com/user-attachments/assets/57228a03-77af-45a4-aa4d-5b53bcddfdae" /># 8 bit cpu
 
 ## Table of Contents
 
@@ -8,8 +8,7 @@
 - [registers](#Registers)
 - [ALU](#ALU)
 - [Mover](#Mover)
-- [RAM](#RAM)
-- [Memory Address manager](#memory_address_manager)
+- [RAM_and_Memory Address manager](#RAM_and_Memory_Address_Manager)
 - [Program Counter](#program_counter)
 - [Assembly](#assembly)
 - [Input](#Input)
@@ -47,6 +46,9 @@ Execution Register:
 The Arithmetic and Logical unit in my cpu can perform the following things
 
 - Addition
+
+<img src="https://github.com/emaadhakeem07/8bit_cpu/blob/main/img/image8.png?raw=true" width="350" />
+  
 - Subtraction
   
 <img src="https://github.com/emaadhakeem07/8bit_cpu/blob/main/img/image7.png?raw=true" width="350" />
@@ -58,3 +60,21 @@ The Arithmetic and Logical unit in my cpu can perform the following things
 - Greater Than
   
 <img src="https://github.com/emaadhakeem07/8bit_cpu/blob/main/img/image6.png?raw=true" width="350" />
+
+## Mover
+
+The mover performs the task of moving data into the registers.
+
+<img src="https://github.com/emaadhakeem07/8bit_cpu/blob/main/img/image9.png?raw=true" width="350" />
+
+## RAM_and_Memory_Address_Manager
+
+The cpu is connected to a memory address manager which is connected to 16 bytes of RAM. The RAM can be written to by the data stored in the main registers, and the data stored in the ram can be moved into the main registers. This can be done using the get and set functions.
+
+RAM:
+
+<img src="https://github.com/emaadhakeem07/8bit_cpu/blob/main/img/image10.png?raw=true" width="350" />
+
+Memory Address Manager: 
+
+<img src="https://github.com/emaadhakeem07/8bit_cpu/blob/main/img/image11.png?raw=true" width="350" />
