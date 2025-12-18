@@ -10,8 +10,8 @@
 - [Mover](#Mover)
 - [RAM_and_Memory Address manager](#RAM_and_Memory_Address_Manager)
 - [Program Counter](#Program_Counter)
-- [Assembly](#assembly)
 - [Input](#Input)
+- [Assembly](#Assembly)
 - [Output](#Output)
 
 ## How_to_View
@@ -92,3 +92,13 @@ It also executes the if statement. which checks the output in the specified regi
 <img src="https://github.com/emaadhakeem07/8bit_cpu/blob/main/img/image14.png?raw=true" width="350" />
 
 <img src="https://github.com/emaadhakeem07/8bit_cpu/blob/main/img/image15.png?raw=true" width="350" />
+
+## Input
+
+An input consisting of 16 lines is connected to the cpu through the program counter. 
+
+<img src="https://github.com/emaadhakeem07/8bit_cpu/blob/main/img/image16.png?raw=true" width="500" />
+
+## Assembly
+
+Commands can be given to the cpu using binary commands, the instructions of these commands can be directly translated into assembly code as follows. 
