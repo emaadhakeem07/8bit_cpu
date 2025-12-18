@@ -14,4 +14,4 @@
 
 ## how_to_view
 
-To view my project download logisim and them open the file "cpu_attempt_1"
+To view my project download logisim and them open the file "cpu_attempt_1.circ". 
