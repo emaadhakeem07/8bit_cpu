@@ -152,3 +152,29 @@ For the "set" and "get function the specified register from which and into which
 **The assembly code used here is not the same as the assembly code used in arm or x86 architechture.**
 
 ## Example_Code
+
+- Example 1: Building a pyramid and then clearing the screen
+
+**Code in assembly:** 
+```
+clear_screen
+mov R0 1
+mov R1 1
+shw R0
+add R2 R0 R1
+mov R1 1
+add R0 R1 R2
+set R0 1110
+get R1 1110
+mov R2 11111111
+equal_to R3 R2 R0
+if R3 line_3 line_0
+```
+
+**Code in binary:** 
+
+<img src="https://github.com/emaadhakeem07/8bit_cpu/blob/main/img/code_for_pyramid.png?raw=true" width="350" />
+
+**Output for the code:**
+
+
