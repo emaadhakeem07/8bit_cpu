@@ -182,5 +182,23 @@ if R3 line_3 line_0
 Link of a video showing the output: [https://www.youtube.com/watch?v=i_A018K-mIY](https://www.youtube.com/watch?v=i_A018K-mIY)
 
 - Example 2: printing the multiples of 5
- 
+
+**Code in Assembly:**
+
+```
+clear_screen
+mov r0 00000101
+mov r1 00000101
+shw r0
+add r2 r1 r0
+set r2 0000
+get r0 0000
+mov r2 00011111
+greater_than r3 r2 r0
+if r3 line_3 line_0
+```
+
+**Code in binary:**
+
+<img src="https://github.com/emaadhakeem07/8bit_cpu/blob/main/img/code_for_multiples5.png?raw=true" width="350" />
 
