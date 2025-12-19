@@ -13,7 +13,7 @@
 - [Input](#Input)
 - [Output](#Output)
 - [Assembly](#Assembly)
-- [Example Assembly Code](#Example)
+- [Example Assembly Code](#Example_Code)
 
 ## How_to_View
 
@@ -130,15 +130,25 @@ Commands can be given to the cpu using binary commands, the instructions of thes
 - 1101 clear_screen
 
 Rd refers to the destination register. It is the register that the output of the function is moved into. The values of Rd can be from 0 to 3.
+
 The "value" refers to number we want to store in the specified register. 
+
 Ra and Rb refer to the register from which the operands are taken from. the values of Ra and Rb have to be distinct from that of Rd. They can also take values from 0 to 3.
+
 "set" is a function to move the value of a register into the ram. 
+
 "address" refers to the position in the ram we want to store the data in. it can take the values from 0 to 15.
+
 "get" is a function that moves the data stored in the address to the specified register.
+
 For the "set" and "get function the specified register from which and into which the data is transferred will be also be refered to as the destination register.
+
 "if" is a command that can be used to control the flow of statements. If the value contained in the specified destination register is not 0 then the execution will shift to line_1 otherwise it will shift to line 2. The lines are numbered from 0 to 15.
+
 "shw" is the function which prints out the value of a specified register onto the 8x8 display.
-"clear_screen" is a function used to clear the 8x8 output. It sets all the bits of the 8x8 display to 0.
 
-Example: 
+"clear_screen" is a function used to clear the 8x8 output. It sets all the bits of the 8x8 display to 0. It must be used in the beginning of the program if and only if the "shw" function is being used in the program at any point.
 
+**The assembly code used here is not the same as the assembly code used in arm or x86 architechture.**
+
+## Example_Code
