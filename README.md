@@ -177,6 +177,10 @@ if R3 line_3 line_0
 
 **Output for the code:**
 
+*The rightmost bit of each line below does not represent the binary code it is used as a buffer as mentioned above*
+
 Link of a video showing the output: [https://www.youtube.com/watch?v=i_A018K-mIY](https://www.youtube.com/watch?v=i_A018K-mIY)
 
-- Example 2: printing the multiples of 7
+- Example 2: printing the multiples of 5
+ 
+
