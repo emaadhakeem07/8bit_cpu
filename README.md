@@ -177,4 +177,6 @@ if R3 line_3 line_0
 
 **Output for the code:**
 
-[![Video Title](https://https://github.com/emaadhakeem07/8bit_cpu/blob/main/img/pyramid_thumbnail.png)](https://www.youtube.com/watch?v=i_A018K-mIY)
+Link of a video showing the output: [https://www.youtube.com/watch?v=i_A018K-mIY](https://www.youtube.com/watch?v=i_A018K-mIY)
+
+- Example 2: printing the multiples of 7
