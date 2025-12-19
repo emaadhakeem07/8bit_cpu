@@ -153,7 +153,9 @@ For the "set" and "get function the specified register from which and into which
 
 ## Example_Code
 
-- Example 1: Building a pyramid and then clearing the screen
+### Example 1: Building a pyramid and then clearing the screen
+
+This program makes a pyramid and then clears the screen.
 
 **Code in assembly:** 
 ```
@@ -175,13 +177,15 @@ if R3 line_3 line_0
 
 <img src="https://github.com/emaadhakeem07/8bit_cpu/blob/main/img/code_for_pyramid.png?raw=true" width="350" />
 
-**Output for the code:**
+**Output of the code:**
 
 *The rightmost bit of each line below does not represent the binary code it is used as a buffer as mentioned above*
 
 Link of a video showing the output: [https://www.youtube.com/watch?v=i_A018K-mIY](https://www.youtube.com/watch?v=i_A018K-mIY)
 
-- Example 2: printing the multiples of 5
+### Example 2: printing the multiples of 5
+
+This program outputs the multiples of 5 lesser than 128 (2^7 = 128).
 
 **Code in Assembly:**
 
@@ -193,7 +197,7 @@ shw r0
 add r2 r1 r0
 set r2 0000
 get r0 0000
-mov r2 00011111
+mov r2 10000000
 greater_than r3 r2 r0
 if r3 line_3 line_0
 ```
@@ -202,3 +206,8 @@ if r3 line_3 line_0
 
 <img src="https://github.com/emaadhakeem07/8bit_cpu/blob/main/img/code_for_multiples5.png?raw=true" width="350" />
 
+**Output for the code**
+
+<img src="https://github.com/emaadhakeem07/8bit_cpu/blob/main/img/output_multiples5.png?raw=true" width="350" />
+
+Link of a video showing the output: [https://www.youtube.com/watch?v=5MgjI-cHRFg](https://www.youtube.com/watch?v=5MgjI-cHRFg)
