@@ -182,7 +182,7 @@ if r3 3 0
 
 **Output of cpu:**
 
-<img src="https://github.com/emaadhakeem07/8bit_cpu/blob/main/img/output_for_pyramid.png?raw=true" width="350" />
+<img src="https://github.com/emaadhakeem07/8bit_cpu/blob/main/img/output_for_fibonacci.png?raw=true" width="350" />
 
 Link of a video showing the output: [https://www.youtube.com/watch?v=gCmbZRqoARM](https://www.youtube.com/watch?v=gCmbZRqoARM)
 
