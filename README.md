@@ -153,7 +153,40 @@ For the "set" and "get function the specified register from which and into which
 
 ## Example_Code
 
-### Example 1: Building a pyramid and then clearing the screen
+### Example 1: generating fibonacci series until 2^7
+
+This program outputs the fibonacci numbers lesser than 2^7 and then clears the screen.
+
+**Code in assembly:**
+
+```
+clear_screen
+mov r0 0
+mov r1 1
+add r2 r1 r0
+shw r0
+set r1 0000
+set r2 0001
+get r0 0000
+get r1 0001
+mov r2 10000000
+gt r3 r2 r0
+if r3 3 0
+```
+
+**Code in binary:**
+
+*The rightmost bit of each line below is not a part of the binary code it is used as a buffer as mentioned above*
+
+<img src="https://github.com/emaadhakeem07/8bit_cpu/blob/main/img/code_for_fibonacci.png?raw=true" width="350" />
+
+**Output of cpu:**
+
+<img src="https://github.com/emaadhakeem07/8bit_cpu/blob/main/img/output_for_pyramid.png?raw=true" width="350" />
+
+Link of a video showing the output: [https://www.youtube.com/watch?v=gCmbZRqoARM](https://www.youtube.com/watch?v=gCmbZRqoARM)
+
+### Example 2: Building a pyramid and then clearing the screen
 
 This program makes a pyramid and then clears the screen.
 
@@ -179,11 +212,9 @@ if R3 line_3 line_0
 
 **Output of the code:**
 
-*The rightmost bit of each line below does not represent the binary code it is used as a buffer as mentioned above*
-
 Link of a video showing the output: [https://www.youtube.com/watch?v=i_A018K-mIY](https://www.youtube.com/watch?v=i_A018K-mIY)
 
-### Example 2: printing the multiples of 5
+### Example 3: printing the multiples of 5
 
 This program outputs the multiples of 5 lesser than 128 (2^7 = 128).
 
